@@ -12,10 +12,10 @@ let i1=0, i2=0, i3=0, i4=0, i5=0;
 
 
 
-// BUTTONS
-let btn1 = document.getElementById("btn1");
-let btn2 = document.getElementById("btn2");
-let btn3 = document.getElementById("btn3");
+//  BUTTONS 
+let btn1 = document.getElementById("btn1"); 
+let btn2 = document.getElementById("btn2"); 
+let btn3 = document.getElementById("btn3"); 
 let btn4 = document.getElementById("btn4");
 let btn5 = document.getElementById("btn5");
 let buildBtn = document.getElementById("buildStory");
@@ -67,3 +67,4 @@ storyOutput.textContent = story;
 
 
   }
+
