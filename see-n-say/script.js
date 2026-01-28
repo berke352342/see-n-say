@@ -1,7 +1,7 @@
-// ARRAYS
+// ARRAYS 
 let who = ["The dog", "My friend", "A robot", "The teacher", "A cat"];
-let what = ["ate", "kicked", "found", "hugged", "destroyed"];
-let where = ["at school", "in the park", "at home", "in space", "on the street"];
+let what =  ["ate", "kicked", "found", "hugged", "destroyed"];
+let where  =  ["at school", "in the park", "at home", "in space", "on the street"];
 let how = ["happily", "angrily", "sadly", "excitedly", "slowly"];
 let when = ["yesterday", "today", "tomorrow", "last night", "in 2030"];
 
@@ -64,5 +64,6 @@ i5 = (i5 + 1) % when.length;
 buildBtn.onclick = () => {
  let story = `${out1.textContent} ${out2.textContent} ${out3.textContent} ${out4.textContent} ${out5.textContent}.`;
 storyOutput.textContent = story;
+
 
   }
